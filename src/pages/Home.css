@@ -1,0 +1,84 @@
+body {
+    background-color: #7fc355; 
+    min-height: 100vh; 
+}
+
+
+.App-header {
+    background-color:#497d29 ;
+    color: white;
+    text-align: center;
+    padding: 50px;
+    .fitness-image {
+        max-width: 100%;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        width: 600px;
+      }
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }
+  .signup-form {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    text-align: left;
+    max-width:400px ;
+   
+  }
+  
+  form {
+    display: grid;
+    grid-gap: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #497d29  ;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .imagen {
+    position: absolute;
+  top: 200px;
+  right: 40px;
+  }
+  
+  button:hover {
+    background-color: #344c25;
+  }
+  .fade-in {
+    opacity: 0;
+    animation: fadeInAnimation ease 1s forwards;
+  }
+  
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
